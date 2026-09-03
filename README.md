@@ -1,0 +1,1 @@
+# IA-farmadoura-de-aura-2.0
