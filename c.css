@@ -1,0 +1,90 @@
+body {
+  background-color: #0b0b10;
+  color: #00ffcc;
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px 0;
+}
+
+.game-container {
+  background-color: #12121c;
+  border: 2px solid #00ffcc;
+  border-radius: 8px;
+  padding: 25px;
+  width: 90%;
+  max-width: 700px;
+  box-shadow: 0 0 20px rgba(0, 255, 204, 0.2);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #333;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 1.2rem;
+  margin: 0;
+  text-shadow: 0 0 5px #00ffcc;
+}
+
+#stats {
+  font-size: 1rem;
+  color: #ff007f;
+}
+
+#story-box {
+  background: #07070a;
+  padding: 20px;
+  border-radius: 5px;
+  min-height: 130px;
+  margin-bottom: 20px;
+  border: 1px solid #222;
+  line-height: 1.6;
+  font-size: 1.05rem;
+}
+
+.choices-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+button {
+  background-color: #161624;
+  color: #00ffcc;
+  border: 1px solid #00ffcc;
+  padding: 14px;
+  font-size: 0.95rem;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+  text-align: left;
+}
+
+button:hover {
+  background-color: #00ffcc;
+  color: #0b0b10;
+  box-shadow: 0 0 10px #00ffcc;
+}
+
+button.final-btn {
+  background-color: #ff007f;
+  color: #ffffff;
+  border: 1px solid #ff007f;
+  text-align: center;
+}
+
+button.final-btn:hover {
+  background-color: #ffffff;
+  color: #ff007f;
+  box-shadow: 0 0 10px #ff007f;
+}
